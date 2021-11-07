@@ -2,6 +2,7 @@ import random
 
 
 class GameLogic:
+    @staticmethod
     def calculate_score(tup):
         """
         a function that accept a tuple as an input and return a calculated points for the greedy game 
@@ -66,5 +67,10 @@ class GameLogic:
         else:
             total = list1[count1] + list2[count2] + list3[count3] + list4[count4]+list5[count5] + list6[count6]
 
-
         return total
+    @staticmethod
+    def roll_dice(val):
+        list =[]
+        for i in range(val):
+            list.append(random.randint(1,6))
+        return tuple(list)
