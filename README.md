@@ -21,3 +21,9 @@
 [Pull Request 4](https://github.com/hayaa123/game-of-greed/pull/4)
 
 [Pull Request 5](https://github.com/hayaa123/game-of-greed/pull/5)
+
+[Pull Request 6](https://github.com/hayaa123/game-of-greed/pull/6)
+
+[Pull Request 7](https://github.com/hayaa123/game-of-greed/pull/7)
+
+
