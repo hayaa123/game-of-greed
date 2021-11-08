@@ -1,8 +1,10 @@
 from game_of_greed.game_logic import GameLogic
 
+
 class Game:
     def __init__(self, roller=None):
         self.roller = roller
+
     def play(self):
         print('Welcome to Game of Greed')
         wanna_play = input('Wanna play? ')
@@ -15,7 +17,7 @@ class Game:
             points = 0
             flagrolling = True
             while flag:
-                if flagrolling == True :
+                if flagrolling == True:
                     print(f'Starting round {round}')
                 print('Rolling 6 dice...')
                 rolled_dice = self.roller(6)
@@ -26,14 +28,21 @@ class Game:
                 decision = input('Enter dice to keep (no spaces), or (q)uit: ')
                 # print(tuple([int(i) for i in decision]  ))
                 if decision == "q":
-                    print(f'Total score is {bank} points')
-                    print(f'Thanks for playing. You earned {bank} points')
-                    flag = False  
+                    if round == 1 and points == 0:
+                        print(f'Thanks for playing. You earned {bank} points')
+                        flag = False
+                    else:
+                        print(f'Total score is {bank} points')
+                        print(f'Thanks for playing. You earned {bank} points')
+                        flag = False
 
                 else:
-                    points += (GameLogic.calculate_score(tuple([int(i) for i in decision]  )))
-                    print(f'You have {points} unbanked points and { 6 - len(decision)} dice remaining')
-                    bankpoints= input('(r)oll again, (b)ank your points or (q)uit ')
+                    points += (GameLogic.calculate_score(
+                        tuple([int(i) for i in decision])))
+                    print(
+                        f'You have {points} unbanked points and { 6 - len(decision)} dice remaining')
+                    bankpoints = input(
+                        '(r)oll again, (b)ank your points or (q)uit ')
                     if bankpoints == 'b':
                         print(f'You banked {points} points in round {round}')
                         bank += points
@@ -44,10 +53,9 @@ class Game:
                     if bankpoints == 'r':
                         # bank += points
                         flagrolling = False
-                        continue   
+                        continue
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     game = Game(GameLogic.roll_dice)
     game.play()
-    
