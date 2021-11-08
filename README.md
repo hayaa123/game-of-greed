@@ -12,11 +12,12 @@
 
 
 
-[Pull Request](https://github.com/hayaa123/game-of-greed/pull/1)
+[Pull Request 1](https://github.com/hayaa123/game-of-greed/pull/1)
 
-https://github.com/hayaa123/game-of-greed/pull/2
+[Pull Request 2](https://github.com/hayaa123/game-of-greed/pull/2)
 
+[Pull Request 3](https://github.com/hayaa123/game-of-greed/pull/3)
 
-https://github.com/hayaa123/game-of-greed/pull/3
+[Pull Request 4](https://github.com/hayaa123/game-of-greed/pull/4)
 
-https://github.com/hayaa123/game-of-greed/pull/4
+[Pull Request 5](https://github.com/hayaa123/game-of-greed/pull/5)
