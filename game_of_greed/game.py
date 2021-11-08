@@ -13,9 +13,10 @@ class Game:
             bank = 0
             flag = True
             points = 0
-            
+            flagrolling = True
             while flag:
-                print(f'Starting round {round}')
+                if flagrolling == True :
+                    print(f'Starting round {round}')
                 print('Rolling 6 dice...')
                 rolled_dice = self.roller(6)
                 nums = []
@@ -38,7 +39,11 @@ class Game:
                         bank += points
                         print(f'Total score is {bank} points')
                         round += 1
-                       
+                        flagrolling = True
+                    if bankpoints == 'r':
+                        # bank += points
+                        flagrolling = False
+                        continue   
 
 
 if __name__=="__main__":
