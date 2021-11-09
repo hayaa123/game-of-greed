@@ -10,8 +10,6 @@
 
 4- Haia Al Lawansah
 
-
-
 [Pull Request 1](https://github.com/hayaa123/game-of-greed/pull/1)
 
 [Pull Request 2](https://github.com/hayaa123/game-of-greed/pull/2)
@@ -28,3 +26,4 @@
 
 [pull Request 8](https://github.com/hayaa123/game-of-greed/pull/8)
 
+[pull Request 9](https://github.com/hayaa123/game-of-greed/pull/9)
