@@ -27,3 +27,5 @@
 [pull Request 8](https://github.com/hayaa123/game-of-greed/pull/8)
 
 [pull Request 9](https://github.com/hayaa123/game-of-greed/pull/9)
+
+[pull Request 10](https://github.com/hayaa123/game-of-greed/pull/10)
