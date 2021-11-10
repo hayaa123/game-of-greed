@@ -5,7 +5,7 @@ from collections import Counter
 
 class Game:
     def __init__(self, roller=None):
-        self.roller = roller
+        self.roller = roller or   GameLogic.roll_dice
 
     def play(self):
         print('Welcome to Game of Greed')
